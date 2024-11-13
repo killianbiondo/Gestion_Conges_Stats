@@ -86,6 +86,28 @@ symfony server:start
 ```
 Le projet sera alors accessible sur http://127.0.0.1:8000.
 
+## Sauvegarder son projet sur Github
+
+Il faut éxecuter ces commandes : 
+
+```bash
+git init
+```
+Pour initialiser le projet.
+
+```bash
+git add .
+```
+Pour sélectionner touts les fichiers à rajouter.
+
+```bash
+git commit -m "le message"
+```
+Permet de commit les fichiers avec un message.
+
+
+
+
 
 ## Utilisation
 
