@@ -68,7 +68,7 @@ symfony console make:migration
 ```
 
 
-7.Charger les données de base (optionnel)
+7. **Charger les données de base (optionnel)**
 
 Si le projet inclut des fixtures, vous pouvez charger des données de test avec la commande :
 
