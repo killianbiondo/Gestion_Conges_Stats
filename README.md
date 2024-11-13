@@ -94,7 +94,7 @@ Le projet sera alors accessible sur http://127.0.0.1:8000.
 
 ## Sauvegarder son projet sur Github
 
-Il faut éxecuter ces commandes : 
+Il faut exécuter ces commandes : 
 
 ```bash
 git init
@@ -107,7 +107,7 @@ git add .
 Pour sélectionner touts les fichiers à rajouter.
 
 ```bash
-git commit -m "le message"
+git commit -m "le message de votre choix"
 ```
 Permet de commit les fichiers avec un message.
 
@@ -115,7 +115,7 @@ Permet de commit les fichiers avec un message.
 ## créer son projet sur Github
 
 Il faut aller sur github et créer un répertoire.
-Ensuite retourner dans son terminal pour executer ces commandes : 
+Ensuite retourner sur son terminal pour executer les commandes suivantes : 
 
 ```bash
  git branch -M main
