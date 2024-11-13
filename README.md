@@ -64,7 +64,7 @@ php bin/console doctrine:database:create
 Exécutez les migrations pour créer les tables nécessaires :
 
 ```bash
-php bin/console doctrine:migrations:migrate
+symfony console make:migration
 ```
 
 
@@ -73,7 +73,13 @@ php bin/console doctrine:migrations:migrate
 Si le projet inclut des fixtures, vous pouvez charger des données de test avec la commande :
 
 ```bash
-php bin/console doctrine:fixtures:load
+symfony console doctrine:migrations:migrate
+```
+
+Si il y a une erreur, executer la commande suivante :
+
+```bash
+symfony console d:s:u --force
 ```
 
 
@@ -106,7 +112,23 @@ git commit -m "le message"
 Permet de commit les fichiers avec un message.
 
 
+## créer son projet sur Github
 
+Il faut aller sur github et créer un répertoire.
+Ensuite retourner dans son terminal pour executer ces commandes : 
+
+```bash
+ git branch -M main
+```
+
+```bash
+git add origin https://github.com/killianbiondo/Gestion_Conges_Stats.git
+```
+
+```bash
+git push -u origin main
+```
+Une fois ces commandes réalisées, vous avez terminer le tp.
 
 
 ## Utilisation
