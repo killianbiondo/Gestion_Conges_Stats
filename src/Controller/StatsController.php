@@ -65,7 +65,7 @@ class StatsController extends AbstractController
         $connection = $entityManager->getConnection();
         $sql = 'SELECT u.nom, u.prenom, COUNT(c.id) as count 
             FROM conge c 
-            JOIN "user" u ON c.user_id = u.id 
+            JOIN `user` u ON c.user_id = u.id 
             GROUP BY u.nom, u.prenom';
 
         $stmt = $connection->prepare($sql);
