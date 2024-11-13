@@ -41,7 +41,7 @@ composer install
    Copiez le fichier .env vers .env.local :
 
 ```bash
-cp .env.env.local
+cp .env -> .env.local
 ```
 
 Ouvrez le fichier .env.local et configurez les informations de votre base de données. Par exemple :
